@@ -1,0 +1,114 @@
+.pdiv{
+  padding: 20px;
+}
+a{
+  text-decoration:  none; 
+}
+a:hover {
+  text-decoration:  none!important; 
+  color: #999!important;
+}
+.btn{
+  padding-top: 2px!important;
+  padding-bottom:  2px!important;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .drop-btn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .drop-btn {
+  background-color: #211;
+}
+
+/* Dropdown content (hidden by default) */
+.drop-con {
+  display: none;
+  position: absolute;
+  top:50px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.drop-con a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.drop-con a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .drop-con {
+  display: block;
+}
+span{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.danger{
+	background-color: #f00;
+	color: #fff;
+}
+.dangerspan{
+	color: red;
+	opacity: 1;
+}
+.dangertab{
+	border-bottom: 2.5px red solid !important;
+/*	border-top: 2px red solid !important;  
+	border-left: 1px red solid !important; 
+	border-right: 1px red solid !important; */
+}
+.tab-bar a{
+	border-bottom: 2.5px #333 solid;
+}
+.vmsg{
+	color: red; 
+}
+.yes{
+  display: block;
+}
+.no{
+  display: none;
+}
+
